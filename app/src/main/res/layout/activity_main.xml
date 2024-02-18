@@ -30,10 +30,12 @@
    <com.google.android.material.textfield.TextInputLayout
        android:layout_width="match_parent"
        android:layout_height="wrap_content" >
+
        <EditText
+           android:id="@+id/txtNIM"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:hint="Email"
+           android:hint="NIM"
            android:inputType="textEmailAddress" />
    </com.google.android.material.textfield.TextInputLayout>
 
@@ -42,23 +44,12 @@
         android:layout_height="wrap_content">
 
         <EditText
+            android:id="@+id/txtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tidak punya account? Klik di sini"
-        android:textSize="15sp"
-        android:textColor="@color/green"
-        android:textStyle="bold"
-        android:gravity="left"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        />
 
     <TextView
         android:layout_width="match_parent"
@@ -73,8 +64,16 @@
         />
 
     <Button
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="SUBMIT"/>
+        android:text="SUBMIT" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="REGISTER" />
 </LinearLayout>

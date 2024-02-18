@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "173378969663",
+    "firebase_url": "https://unsiahub-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "unsiahub",
+    "storage_bucket": "unsiahub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173378969663:android:4cd35fb641190dda7ed88a",
+        "android_client_info": {
+          "package_name": "com.wcksn.unsiahub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsMlnx_O3TLo8bis3P31IOkUCQQVtKQOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
